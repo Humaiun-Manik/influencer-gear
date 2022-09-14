@@ -71,6 +71,9 @@ body {
   font-weight: 600;
   line-height: 24px;
 }
+.header-right {
+  padding-right: 100px;
+}
 .booking-btn {
   background-color: #e02c6d;
   border-radius: 41px;
@@ -198,4 +201,29 @@ body {
 }
 .join-btn i {
   margin-left: 8px;
+}
+
+/*-------------------
+     footer style  
+---------------------*/
+footer {
+  background-color: #0a020c;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 100px;
+}
+.footer-text h3 {
+  font-size: 24px;
+  font-weight: 700;
+  padding-top: 50px;
+  margin-bottom: 3px;
+}
+.footer-text p {
+  margin: 0;
+  color: #d9dbe1;
+  font-size: 14px;
+}
+.social-media-cons i {
+  margin: 17px;
+  margin-bottom: 50px;
 }
