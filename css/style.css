@@ -74,3 +74,10 @@ body {
 .booking-btn i {
   margin-left: 10px;
 }
+
+/* logos style  */
+.other-logos {
+  display: flex;
+  justify-content: space-around;
+  margin: 100px 0;
+}
