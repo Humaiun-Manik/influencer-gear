@@ -1,0 +1,76 @@
+/* google fonts  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap");
+
+/* common style and utilities */
+body {
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  width: 1345px;
+  margin: auto;
+}
+/* menu bar style  */
+.menu-bar {
+  display: flex;
+  justify-content: space-around;
+  margin: 80px 0;
+}
+.logo h1 {
+  color: #3a3a3a;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+/* style menu items */
+.menu-items ul {
+  display: flex;
+}
+.menu-items ul li {
+  margin-right: 34px;
+  list-style: none;
+}
+.menu-items ul li a {
+  color: #3a3a3a;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.fa-magnifying-glass {
+  font-size: 24px;
+}
+.fa-cart-plus {
+  font-size: 36px;
+}
+
+/* header section style */
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.header-left {
+  width: 582px;
+  height: 270px;
+}
+.header-left h1 {
+  font-size: 52px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.header-left p {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.booking-btn {
+  background-color: #e02c6d;
+  border-radius: 41px;
+  border: none;
+  padding: 10px 24px;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 16px;
+}
+.booking-btn i {
+  margin-left: 10px;
+}
