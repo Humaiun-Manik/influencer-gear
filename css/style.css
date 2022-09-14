@@ -81,3 +81,64 @@ body {
   justify-content: space-around;
   margin: 100px 0;
 }
+
+/* Popular product style  */
+.product-title {
+  color: #3a3a3a;
+  font-size: 28px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+  /* background: #f1f1f1; */
+}
+.product {
+  padding: 17px 15px;
+  background: #ffffff;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+}
+.product img {
+  width: 100%;
+}
+.product h1 {
+  color: #18191f;
+  font-size: 28px;
+  font-weight: 500;
+  margin-top: 16px;
+  margin-bottom: 6px;
+}
+.product h3 {
+  color: #000000;
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0;
+}
+.product p {
+  color: #787885;
+  font-size: 14px;
+  font-weight: 700;
+}
+.rating .fa-star {
+  color: #fb8200;
+  font-size: 12px;
+}
+.rating span {
+  color: #5e6366;
+  margin-left: 8px;
+}
+.more-btn {
+  float: right;
+  color: #e02c6d;
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 50px;
+}
+.more-btn i {
+  margin-left: 8px;
+}
