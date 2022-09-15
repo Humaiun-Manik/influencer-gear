@@ -7,6 +7,7 @@
     common style and utilities 
  ---------------------------------*/
 body {
+  /* margin: 0; */
   font-family: "Poppins", sans-serif;
 }
 .container {
@@ -226,4 +227,49 @@ footer {
 .social-media-cons i {
   margin: 17px;
   margin-bottom: 50px;
+}
+
+/*----------------- 
+    media queries 
+-------------------*/
+
+/* mobile devices */
+@media only screen and (max-width: 688px) {
+  .container {
+    width: 680px;
+  }
+  .menu-bar,
+  .menu-items ul {
+    flex-direction: column;
+  }
+  .menu-items ul li {
+    margin: 10px 0;
+  }
+  .header {
+    flex-direction: column-reverse;
+  }
+  .header-left,
+  .header-right img {
+    width: 55%;
+  }
+  .other-logos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 20px;
+    margin-top: 200px;
+    width: 60%;
+  }
+  .products {
+    grid-template-columns: repeat(1, 1fr);
+    width: 50%;
+  }
+  .product-title {
+    text-align: justify;
+  }
+  .more-btn {
+    float: left;
+  }
+  .featured-product {
+    flex-direction: column;
+  }
 }
